@@ -7,7 +7,8 @@ while True:
 		break
 	else:
 		i = i - 1
-		print('密碼錯誤! 還有', i, '次機會')
 		if i == 0:
-			print('請過30秒再次輸入')
+			print('登入失敗,請過30秒再次輸入')
 			break
+		print('密碼錯誤! 還有', i, '次機會')
+		
